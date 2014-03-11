@@ -43,7 +43,10 @@ input[type="checkbox"].input-validation-error {
 .chat-messages {
     min-height: 400px;
     height: 400px;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     word-wrap: break-word;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
 }
